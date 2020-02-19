@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragmentCartLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <TextView
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewCart"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"></android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/totalCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="71dp"
+        android:layout_marginStart="20dp"
+        android:text="Total Cost" />
+
+    <TextView
+        android:id="@+id/costAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/totalCost"
+        android:layout_marginEnd="35dp"
+        android:text="$0.00" />
+
+    <Button
+        android:id="@+id/checkoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Checkout" />
+
+</RelativeLayout>

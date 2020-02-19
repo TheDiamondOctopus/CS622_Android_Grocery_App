@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/shopCardView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+
+        <ImageView
+            android:id="@+id/img_contact"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textViewHead"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"
+            android:text="Heading"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDesc"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="40dp"
+            android:text="Description"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/addItem"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="70dp"
+            android:text="Add Item" />
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
